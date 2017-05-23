@@ -78,6 +78,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ViveStarter.Plugins.csproj">
+      <Project>{6AB8EF65-8222-C64A-7D7A-B0EEC685DB45}</Project>
+      <Name>ViveStarter.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Phonon\Core\AudioEngine.cs" />
     <Compile Include="Assets\Phonon\Core\PhononCommon.cs" />
     <Compile Include="Assets\Phonon\Core\PhononCore.cs" />
@@ -422,6 +428,7 @@
     <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\UniRx\ReadMe.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />

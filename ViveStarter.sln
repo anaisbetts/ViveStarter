@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViveStarter.Plugins", "ViveStarter.Plugins.csproj", "{6AB8EF65-8222-C64A-7D7A-B0EEC685DB45}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViveStarter", "ViveStarter.csproj", "{F0C30DF1-C55B-FBD1-B84C-68917591C7ED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViveStarter.Editor", "ViveStarter.Editor.csproj", "{C0D15394-5FF6-5973-4FD1-425C1EA4C87C}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AB8EF65-8222-C64A-7D7A-B0EEC685DB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB8EF65-8222-C64A-7D7A-B0EEC685DB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB8EF65-8222-C64A-7D7A-B0EEC685DB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB8EF65-8222-C64A-7D7A-B0EEC685DB45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F0C30DF1-C55B-FBD1-B84C-68917591C7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F0C30DF1-C55B-FBD1-B84C-68917591C7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C30DF1-C55B-FBD1-B84C-68917591C7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU

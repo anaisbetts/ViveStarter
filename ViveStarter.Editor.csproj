@@ -120,6 +120,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="ViveStarter.Plugins.csproj">
+      <Project>{6AB8EF65-8222-C64A-7D7A-B0EEC685DB45}</Project>
+      <Name>ViveStarter.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="ViveStarter.csproj">
       <Project>{F0C30DF1-C55B-FBD1-B84C-68917591C7ED}</Project>
       <Name>ViveStarter</Name>
@@ -153,6 +157,7 @@
     <Compile Include="Assets\VRTK\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\UniRx\ReadMe.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
