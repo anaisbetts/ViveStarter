@@ -78,6 +78,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Phonon\Core\AudioEngine.cs" />
+    <Compile Include="Assets\Phonon\Core\PhononCommon.cs" />
+    <Compile Include="Assets\Phonon\Core\PhononCore.cs" />
+    <Compile Include="Assets\Phonon\Export\PhononGeometry.cs" />
+    <Compile Include="Assets\Phonon\Export\PhononMaterial.cs" />
+    <Compile Include="Assets\Phonon\Export\PhononMaterialPreset.cs" />
+    <Compile Include="Assets\Phonon\Export\PhononMaterialPresetList.cs" />
+    <Compile Include="Assets\Phonon\Export\PhononMaterialValue.cs" />
+    <Compile Include="Assets\Phonon\Simulator\AttenuationInterpolator.cs" />
+    <Compile Include="Assets\Phonon\Simulator\BakedStaticListenerNode.cs" />
+    <Compile Include="Assets\Phonon\Simulator\BinauralRenderer.cs" />
+    <Compile Include="Assets\Phonon\Simulator\ComputeDevice.cs" />
+    <Compile Include="Assets\Phonon\Simulator\CustomPhononSettings.cs" />
+    <Compile Include="Assets\Phonon\Simulator\CustomSpeakerLayout.cs" />
+    <Compile Include="Assets\Phonon\Simulator\DirectSimulator.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Environment.cs" />
+    <Compile Include="Assets\Phonon\Simulator\EnvironmentalRenderer.cs" />
+    <Compile Include="Assets\Phonon\Simulator\IndirectMixer.cs" />
+    <Compile Include="Assets\Phonon\Simulator\IndirectSimulator.cs" />
+    <Compile Include="Assets\Phonon\Simulator\PhononBaker.cs" />
+    <Compile Include="Assets\Phonon\Simulator\PhononListener.cs" />
+    <Compile Include="Assets\Phonon\Simulator\PhononManager.cs" />
+    <Compile Include="Assets\Phonon\Simulator\PhononManagerContainer.cs" />
+    <Compile Include="Assets\Phonon\Simulator\PhononSource.cs" />
+    <Compile Include="Assets\Phonon\Simulator\PhononStaticListener.cs" />
+    <Compile Include="Assets\Phonon\Simulator\ProbeBox.cs" />
+    <Compile Include="Assets\Phonon\Simulator\ProbeManager.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Scene.cs" />
+    <Compile Include="Assets\Phonon\Simulator\SimulationSettingsPreset.cs" />
+    <Compile Include="Assets\Phonon\Simulator\SimulationSettingsPresetList.cs" />
+    <Compile Include="Assets\Phonon\Simulator\SimulationSettingsValue.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />

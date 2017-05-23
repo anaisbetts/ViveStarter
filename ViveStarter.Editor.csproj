@@ -126,6 +126,19 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Phonon\Build\Editor\PhononBuild.cs" />
+    <Compile Include="Assets\Phonon\Core\Editor\PhononGUI.cs" />
+    <Compile Include="Assets\Phonon\Core\Editor\PhononWindow.cs" />
+    <Compile Include="Assets\Phonon\Export\Editor\PhononGeometryInspector.cs" />
+    <Compile Include="Assets\Phonon\Export\Editor\PhononMaterialDrawer.cs" />
+    <Compile Include="Assets\Phonon\Export\Editor\PhononMaterialInspector.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Editor\BakedStaticListenerNodeInspector.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Editor\CustomPhononSettingsInspector.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Editor\PhononListenerInspector.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Editor\PhononManagerInspector.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Editor\PhononSourceInspector.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Editor\ProbeBoxInspector.cs" />
+    <Compile Include="Assets\Phonon\Simulator\Editor\SimulationSettingsValueDrawer.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
     <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
